@@ -1,0 +1,5 @@
+Much similarity between this problem set with problem 2, in the sense that it is a requirement to access each groups within the overall group. As such, a recursion was deployed in order to access each group, where at the same time, a conidition was scripted to check for the inputted users within a certain group's user list.
+
+In terms of time complexity, since we need to acccess each of the groups in order to access the users, the runtime analysis for this function call has a Big-O of O(n)
+
+In terms of space complexity, each of the groups and their respective associated groups are assessed from the inputted group to the function call. Since our memory complexity is determined by the number of return statements because each function call will be stored on the program stack, the space complexity for this function is O(n), where n is the number of associated groups to the inputted group, resulting in a linear space complexity
